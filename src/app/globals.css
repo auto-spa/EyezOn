@@ -2,26 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    .text-outline {
+        -webkit-text-stroke: 2px white;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@layer components {
+    .outline-btn {
+        @apply border-[3px] rounded-xl px-6 py-2;
+    }
+    .outline-btn1{
+        @apply border-[3px] rounded-xl px-6 py-2 border-[#7100BB];
+    }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    .glowing-shadow {
+        /* @apply can't be used for complex custom shadow definitions */
+        box-shadow: inset 0 0 40px 10px #b300ff;
+ /* Correctly defined box-shadow */
+    }
 }
