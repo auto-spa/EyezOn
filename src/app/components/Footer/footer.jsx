@@ -26,6 +26,9 @@ import {
   FaCogs,
   FaTint,
   FaBuffer,
+  FaWater,
+  FaWrench,
+  FaCrown,
 } from "react-icons/fa"; // Import necessary icons
 import {
   FaTrash,
@@ -168,80 +171,81 @@ const Footer = () => {
         </motion.div>
 
         <motion.div variants={itemVariants} className="text-left">
-          <Link href="/services">
-            <h3 className="font-semibold text-lg mb-4">Services</h3>
-          </Link>
+  <Link href="/services">
+    <h3 className="font-semibold text-lg mb-4">Services</h3>
+  </Link>
 
-          <div className="mb-2 flex items-center">
-            <FaCarSide className="mr-2" />
-            <Link href="/auto-detailing">
-              <span>Auto Detailing</span>
-            </Link>
-          </div>
+  <div className="mb-2 flex items-center">
+    <FaCarSide className="mr-2" />
+    <Link href="/services/auto-detailing">
+      <span>Auto Detailing</span>
+    </Link>
+  </div>
 
-          <div className="mb-2 flex items-center">
-            <FaShip className="mr-2" />
-            <Link href="/boating-detailing">
-              <span>Boating Detailing</span>
-            </Link>
-          </div>
+  <div className="mb-2 flex items-center">
+    <FaWater className="mr-2" />
+    <Link href="/services/boating-detailing">
+      <span>Boating Detailing</span>
+    </Link>
+  </div>
 
-          <div className="mb-2 flex items-center">
-            <FaTools className="mr-2" />
-            <Link href="/engine-bay-detailing">
-              <span>Engine Bay Detailing</span>
-            </Link>
-          </div>
+  <div className="mb-2 flex items-center">
+    <FaWrench className="mr-2" />
+    <Link href="/services/engine-bay-detailing">
+      <span>Engine Bay Detailing</span>
+    </Link>
+  </div>
 
-          <div className="mb-2 flex items-center">
-            <FaSprayCan className="mr-2" />
-            <Link href="/exterior-detailing">
-              <span>Exterior Detailing</span>
-            </Link>
-          </div>
+  <div className="mb-2 flex items-center">
+    <FaSprayCan className="mr-2" />
+    <Link href="/services/exterior-detailing">
+      <span>Exterior Detailing</span>
+    </Link>
+  </div>
 
-          <div className="mb-2 flex items-center">
-            <FaChair className="mr-2" />
-            <Link href="/interior-detailing">
-              <span>Interior Detailing</span>
-            </Link>
-          </div>
+  <div className="mb-2 flex items-center">
+    <FaCouch className="mr-2" />
+    <Link href="/services/interior-detailing">
+      <span>Interior Detailing</span>
+    </Link>
+  </div>
 
-          <div className="mb-2 flex items-center">
-            <FaGem className="mr-2" />
-            <Link href="/luxury-detailing">
-              <span>Luxury Detailing</span>
-            </Link>
-          </div>
+  <div className="mb-2 flex items-center">
+    <FaCrown className="mr-2" />
+    <Link href="/services/luxury-detailing">
+      <span>Luxury Detailing</span>
+    </Link>
+  </div>
 
-          <div className="mb-2 flex items-center">
-            <FaCampground className="mr-2" />
-            <Link href="/rv-detailing">
-              <span>RV Detailing</span>
-            </Link>
-          </div>
+  <div className="mb-2 flex items-center">
+    <FaCampground className="mr-2" />
+    <Link href="/services/rv-detailing">
+      <span>RV Detailing</span>
+    </Link>
+  </div>
 
-          <div className="mb-2 flex items-center">
-            <FaBuffer className="mr-2" />
-            <Link href="/polishing">
-              <span>Polishing</span>
-            </Link>
-          </div>
+  <div className="mb-2 flex items-center">
+    <FaBuffer className="mr-2" />
+    <Link href="/services/polishing">
+      <span>Polishing</span>
+    </Link>
+  </div>
 
-          <div className="mb-2 flex items-center">
-            <FaCogs className="mr-2" />
-            <Link href="/upholstery-cleaning">
-              <span>Upholstery Cleaning</span>
-            </Link>
-          </div>
+  <div className="mb-2 flex items-center">
+    <FaChair className="mr-2" />
+    <Link href="/services/upholstery-cleaning">
+      <span>Upholstery Cleaning</span>
+    </Link>
+  </div>
 
-          <div className="mb-2 flex items-center">
-            <FaTint className="mr-2" />
-            <Link href="/ceramic-coating">
-              <span>Ceramic Coating</span>
-            </Link>
-          </div>
-        </motion.div>
+  <div className="mb-2 flex items-center">
+    <FaTint className="mr-2" />
+    <Link href="/services/ceramic-coating">
+      <span>Ceramic Coating</span>
+    </Link>
+  </div>
+</motion.div>
+
 
         <motion.div variants={itemVariants} className="text-left">
           <h3 className="font-semibold text-lg mb-4">Contact Us</h3>
@@ -282,42 +286,36 @@ const Footer = () => {
 
           <div className="flex space-x-4 mt-4">
             <a
-              href="https://www.facebook.com/trinityjunkremovalinc/"
+              href="https://www.facebook.com/EyezPrizeAutoSpa"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebookF />
             </a>
+            
             <a
-              href="https://www.yelp.com/biz/trinity-junk-removal-riverview-5"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaYelp />
-            </a>
-            <a
-              href="https://www.instagram.com/trinityjunk813/"
+              href="https://www.instagram.com/eyezontheprizeclt/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram />
             </a>
             <a
-              href="https://www.tiktok.com/@trinityjunk?_t=8hkU3Ll578h&_r=1"
+              href="https://www.tiktok.com/@eyezontheprizeautospa"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaTiktok />
             </a>
             <a
-              href="https://www.youtube.com/@trinityjunkremovalinc"
+              href="https://www.youtube.com/@EyezonAutospa"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaYoutube />
             </a>
             <a
-              href="https://www.pinterest.com/trinityjunkremovalinc1/"
+              href="https://www.pinterest.com/eyezona/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -411,8 +409,8 @@ const Footer = () => {
       </div>
 
       <div className="mt-8 flex flex-col md:flex-row justify-between items-start text-sm">
-        <p className="font-semibold">Eyez On The Prize Auto-Spa</p>
-        <p className="mt-2 md:mt-0 font-light">Copyright {year}</p>
+        <p className="font-semibold ml-2">Eyez On The Prize Auto-Spa</p>
+        <p className="mt-2 md:mt-0 font-light lg:mr-2 sm:mr-2">Copyright {year}</p>
       </div>
     </motion.footer>
   );

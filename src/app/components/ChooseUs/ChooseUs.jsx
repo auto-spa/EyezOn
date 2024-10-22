@@ -39,7 +39,7 @@ const ChooseUs = () => {
             <div className="space-y-6">
               {[
                 { label: "Shine Guarantee", value: 99.99 },
-                { label: "Customer Satisfaction", value: 99 },
+                { label: "Customer Satisfaction", value: 99.99 },
               ].map((progress, index) => (
                 <div key={index}>
                   <label className="block mb-2 font-semibold">
