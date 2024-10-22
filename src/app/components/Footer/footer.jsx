@@ -408,10 +408,11 @@ const Footer = () => {
         </motion.div>
       </div>
 
-      <div className="mt-8 flex flex-col md:flex-row justify-between items-start text-sm">
-        <p className="font-semibold ml-2">Eyez On The Prize Auto-Spa</p>
-        <p className="mt-2 md:mt-0 font-light lg:mr-2 sm:mr-0 sm:ml-2">Copyright {year}</p>
-      </div>
+      <div className="mt-8 flex flex-row justify-between items-center text-sm">
+  <p className="font-semibold ml-2">Eyez On The Prize Auto-Spa</p>
+  <p className="font-light mr-2 ">Copyright {year}</p>
+</div>
+
     </motion.footer>
   );
 };
