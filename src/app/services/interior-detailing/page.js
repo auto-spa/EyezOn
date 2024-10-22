@@ -93,7 +93,7 @@ const ServiceDetailPage = () => {
                   </div>
                   <div className="mt-6">
                     <a
-                      href="/login"
+                      href="tel:+19803070431"
                       className="inline-flex rounded-lg bg-purple-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple-600 hover:bg-purple-900 hover:ring-purple-900"
                     >
                       Call Now
