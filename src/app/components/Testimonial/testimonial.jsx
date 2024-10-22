@@ -95,8 +95,8 @@ export default function Testimonial() {
 
   return (
     <div className="bg-gradient-to-r from-black via-purple-800 to-black bg-opacity-50 text-white ">
-      <h2 className="text-5xl lg:text-7xl font-bold leading-tight uppercase pt-10 pl-10">Testimonials</h2>
-      <p className="text-3xl leading-relaxed text-white pl-14 pt-4">
+      <h2 className=" text-center  text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold leading-tight uppercase pt-10 pl-10">Testimonials</h2>
+      <p className="text-1xl lg:text-3xl leading-relaxed text-white pl-14 pt-4 text-center">
       What Our Client Says
                 </p>
       <div className={styles.testimonialSection}>

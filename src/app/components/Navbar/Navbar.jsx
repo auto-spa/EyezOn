@@ -168,7 +168,7 @@ export default function Navbar() {
     </li>
     <li>
       <a
-        href="#"
+        href="/blogs"
         className="block py-2 px-3 text-white hover:text-purple-300"
         onClick={handleSubmenuItemClick}
       >
