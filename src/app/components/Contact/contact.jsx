@@ -200,7 +200,7 @@ function ContactUs() {
       
       <div className="mb-2 flex items-center">
         <FaClock className="mr-2 text-purple-500" /> {/* Time Icon */}
-        <span>Mon to Sun: 24 hours</span>
+        <span>Mon to Sun: 9:00am- 7:00pm</span>
       </div>
       
       <div className="mb-2 flex items-center">

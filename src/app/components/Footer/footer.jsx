@@ -274,7 +274,7 @@ const Footer = () => {
 
           <div className="mb-2 flex items-center">
             <FaClock className="mr-2" /> {/* Time Icon */}
-            <span>Mon to Sun: 24 hours</span>{" "}
+            <span>Mon to Sun: 9:00am- 7:00pm</span>{" "}
             {/* Replace with your actual working hours */}
           </div>
 
@@ -410,7 +410,7 @@ const Footer = () => {
 
       <div className="mt-8 flex flex-col md:flex-row justify-between items-start text-sm">
         <p className="font-semibold ml-2">Eyez On The Prize Auto-Spa</p>
-        <p className="mt-2 md:mt-0 font-light lg:mr-2 sm:mr-2">Copyright {year}</p>
+        <p className="mt-2 md:mt-0 font-light lg:mr-2 sm:mr-0 sm:ml-2">Copyright {year}</p>
       </div>
     </motion.footer>
   );
