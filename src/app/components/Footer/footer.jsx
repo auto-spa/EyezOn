@@ -162,7 +162,7 @@ const Footer = () => {
             </p>
           </Link>
 
-          <Link href="/privacy-policy">
+          <Link href="/plans">
             <p className="mb-2">
               <FontAwesomeIcon icon={faShieldAlt} className=" mr-2" />
               Plans
