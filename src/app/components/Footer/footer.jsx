@@ -219,7 +219,7 @@ const Footer = () => {
 
   <div className="mb-2 flex items-center">
     <FaCampground className="mr-2" />
-    <Link href="/services/rv-detailing">
+    <Link href="/services/rv-detailing-2">
       <span>RV Detailing</span>
     </Link>
   </div>
