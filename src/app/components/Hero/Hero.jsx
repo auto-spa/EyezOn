@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 import { motion, spring } from "framer-motion";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -40,7 +41,7 @@ const Hero = () => {
                   </span>
                 </h1>
                 <button className="outline-btn flex justify-center items-center gap-4 group">
-                  Explore
+                 <Link href="/services">Explore</Link> 
                   <FaArrowRight className="group-hover:translate-x-2 transition" />
                 </button>
               </motion.div>

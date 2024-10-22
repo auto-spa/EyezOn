@@ -13,47 +13,61 @@ export default function Testimonial() {
 
   const testimonials = [
     {
-      name: "John Davis",
-      role: "Baby Carer",
-      date: "2023-10-15",
-      profileImage: "/images/t1.jpg", // Use path from public folder
-      text: "I used this website to see how my living room would look with different colors, and it saved me from making a bad paint choice. Super helpful for both interiors and exteriors!"
+      name: "Gregory Keith",
+      
+      date: "2024-01-15",
+      profileImage: "/images/t1.png", // Use path from public folder
+      text: "Very detail oriented and professional work. Thank you!"
     },
     {
-      name: "Emily Thompson",
-      role: "Baby Carer",
-      date: "2023-09-05",
-      profileImage: "/images/t2.jpg",
-      text: "I love how I can upload a picture of my house and preview different colors instantly. The exterior visualizer was especially helpful for my new siding colors!"
+      name: "Dai Dai",
+      
+      date: "2024-01-07",
+      profileImage: "/images/t2.png",
+      text: "Excellent service like how he takes his time and thorough with the pricing. Very thrilled to find a great detailer who pays attention to detail and gives you knowledge as well."
     },
     {
-      name: "Michael Rodriguez",
-      role: "Chef, Maid",
-      date: "2024-08-25",
-      profileImage: "/images/t3.jpg",
-      text: "This site is a game-changer. I tested so many color combinations for both my living room and the exterior, and it was so easy to use. Highly recommended!"
+      name: "Tasky HD",
+      
+      date: "2024-02-05",
+      profileImage: "/images/t3.png",
+      text: "Saved my car's exterior from a close encounter with some tire sealing foam.Now the paint is slick and clean like straight off the lot !"
     },
     {
-      name: "Jessica Miller",
-      role: "Cook",
-      date: "2024-07-15",
-      profileImage: "/images/t4.jpg",
-      text: "The ability to preview different colors on my home is awesome, but I wish there were even more colors and textures to choose from. Still, a great tool for home designers!"
+      name: "Annicka Fisher",
+      
+      date: "2024-02-20",
+      profileImage: "/images/t4.png",
+      text: "Would highly recommend! My car was in desperate need of a good detail, and it now looks brand new. I was shocked to see how good it looks and the difference it made."
     },
     {
-      name: "David Martinez",
-      role: "Gardener",
-      date: "2022-06-20",
-      profileImage: "/images/t5.jpg",
-      text: "I was stuck between a few color choices, but seeing them on my house made the decision so much easier. The tool works for both interiors and exteriors – super useful!"
+      name: "Brian Lundeen",
+      
+      date: "2024-02-27",
+      profileImage: "/images/t5.png",
+      text: "Jacob helped me avoid a complete catastrophe. I had a gallon of paint spill all over my passenger seat and carpet all throughout my truck. I gave Jacob a call, and.."
     },
     {
-      name: "Sarah Johnson",
-      role: "Housekeeper",
-      date: "2022-05-10",
-      profileImage: "/images/t6.jpg",
-      text: "The color preview feature really helped me see how my house would look after painting. Both the inside and outside options worked perfectly for my renovation plan."
-    }
+      name: "Kelli Corneau",
+      
+      date: "2024-02-28",
+      profileImage: "/images/t6.png",
+      text: "They did a great job and communicated what he thought was best for the condition my car was in. My car was brought back to life after a kid and two dogs being inside!.."
+    },
+    // {
+    //   name: "Sarah Johnson",
+     
+    //   date: "2022-05-10",
+    //   profileImage: "/images/t7.png",
+    //   text: "The color preview feature really helped me see how my house would look after painting. Both the inside and outside options worked perfectly for my renovation plan."
+    // },
+    // {
+    //   name: "Sarah Johnson",
+      
+    //   date: "2022-05-10",
+    //   profileImage: "/images/t8.png",
+    //   text: "The color preview feature really helped me see how my house would look after painting. Both the inside and outside options worked perfectly for my renovation plan."
+    // }
   ];
 
   // Auto-slider effect

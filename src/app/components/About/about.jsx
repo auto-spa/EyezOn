@@ -69,7 +69,7 @@ const About = ({ topRef }) => {
                   Trust us to enhance your vehicle’s look and protect its value
                   with our expert detailing strategies.
                 </p>
-                <Link href="/services">
+                <Link href="/about-us">
                   <button className="outline-btn flex justify-center items-center gap-4 group mt-4 mb-[22%]">
                     Explore
                     <FaArrowRight className="group-hover:translate-x-2 transition text-white" />

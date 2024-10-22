@@ -9,21 +9,21 @@ const services = [
     name: "Automotive aesthetics",
     imageUrl: "/images/card-1.webp",
     description:
-      "State-of-the-art diagnostics to accurately identify vehicle issues.",
+      "Eyez at the Prize Auto Spa offers superior automotive aesthetics offerings, improving your car’s look with accurate detailing, paint correction, and ceramic coatings for an ideal, showroom-quality finish.",
   },
   {
     step: "02",
     name: "Ceramic Coating",
     imageUrl: "/images/card-2.png",
     description:
-      "Engine overhauls to brake replacements, we ensure high-quality work for your vehicle’s longevity.",
+      "Experience the ultimate protection with Eyez on the Prize Auto Spa’s Ceramic Coating service. Our advanced coating ensures strong shine and superior defense against environmental damage, keeping your car looking perfect.",
   },
   {
     step: "03",
     name: "Automotive Car wash",
     imageUrl: "/images/card-3.png",
     description:
-      "Oil changes, tire rotations, and more to enhance performance and prevent future issues.",
+      "Experience superior automotive car wash offerings at Eyez at the Prize Auto Spa. We make certain your car shines with a thorough cleaning, top-class products, and amazing attention to detail. Drive away shining!",
   },
 ];
 
@@ -78,7 +78,7 @@ const FlipCardComponent = () => {
                       <p className="text-lg text-pretty text-center mb-4">
                         {service.description}
                       </p>
-                      <a href="tel:555-555-5555" className="inline-flex">
+                      <a href="tel:+19803070431" className="inline-flex">
                         <button className="my-2 bg-yellow-800 hover:bg-yellow-700 text-white font-bold py-2 px-4 w-auto rounded-full inline-flex items-center">
                           <span>Schedule Service</span>
                           <WrenchScrewdriverIcon className="h-6 w-6 ml-2" />

@@ -4,14 +4,14 @@ import { useState } from "react";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [servicesDropdownOpen, setDropdownOpen] = useState(false);
-  const [areaDropdownOpen, setareaDropdownOpen] = useState(false);
+  const [areaDropdownOpen, setAreaDropdownOpen] = useState(false);
 
   // Function to close the submenu on item click
   const handleSubmenuItemClick = () => {
     setDropdownOpen(false);
   };
   const handleareaSubmenuItemClick = () => {
-    setareaDropdownOpen(false);
+    setAreaDropdownOpen(false);
   };
 
   return (
@@ -20,13 +20,13 @@ export default function Navbar() {
       <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         {/* Logo and Brand */}
         <a
-    href="https://flowbite.com"
+    href="/"
     className="flex items-center h-full"
     style={{ minWidth: '4rem' , marginTop: '1rem'}} // Reserve space for the larger logo
   >
     <img
       src="/images/logo.png"
-      alt="Flowbite Logo"
+      alt="Logo"
       className="h-[6rem] object-contain mt-4" // Ensure the logo stays within its height boundary
     />
   </a>
@@ -64,7 +64,7 @@ export default function Navbar() {
   <ul className="flex flex-col p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
     <li>
       <a
-        href="#"
+        href="/"
         className="block py-2 px-3 text-white hover:text-purple-300"
         onClick={handleSubmenuItemClick}
       >
@@ -73,7 +73,7 @@ export default function Navbar() {
     </li>
     <li>
       <a
-        href="#"
+        href="/about-us"
         className="block py-2 px-3 text-white hover:text-purple-300"
         onClick={handleSubmenuItemClick}
       >
@@ -81,52 +81,76 @@ export default function Navbar() {
       </a>
     </li>
     <li>
-      <button
-        onClick={() => setDropdownOpen(!servicesDropdownOpen)}
-        className="flex items-center justify-between w-full py-2 px-3 text-white hover:text-purple-300 md:w-auto"
-      >
-        Services
-        <svg
-          className="w-2.5 h-2.5 ms-2.5"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 10 6"
-        >
-          <path
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="m1 1 4 4 4-4"
-          />
-        </svg>
-      </button>
+    <div className="flex items-center space-x-1">
+  <a
+    href="/services"
+    className="py-2 px-3 text-white hover:text-purple-300 md:w-auto"
+  >
+    Services
+  </a>
+  <button
+    onClick={(e) => {
+      e.preventDefault(); // Prevent navigation when only toggling the dropdown
+      setDropdownOpen((prev) => !prev);
+    }}
+    className="flex items-center justify-center w-3 h-3 text-white hover:text-purple-300"
+    aria-label="Toggle dropdown"
+  >
+    <svg
+      className="w-4 h-4"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 10 6"
+    >
+      <path
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="m1 1 4 4 4-4"
+      />
+    </svg>
+  </button>
+</div>
+
     </li>
     <li>
-      <button
-        onClick={() => setareaDropdownOpen(!areaDropdownOpen)}
-        className="flex items-center justify-between w-full py-2 px-3 text-white hover:text-purple-300 md:w-auto"
-      >
-        Service Areas
-        <svg
-          className="w-2.5 h-2.5 ms-2.5"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 10 6"
-        >
-          <path
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="m1 1 4 4 4-4"
-          />
-        </svg>
-      </button>
+    <div className="flex items-center space-x-1">
+  <a
+    href="/service-areas"
+    className="py-2 px-3 text-white hover:text-purple-300"
+  >
+    Service Areas
+  </a>
+  <button
+    onClick={(e) => {
+      e.preventDefault(); // Prevent navigation when toggling the dropdown
+      setAreaDropdownOpen((prev) => !prev);
+    }}
+    className="flex items-center justify-center w-3 h-3 text-white hover:text-purple-300"
+    aria-label="Toggle service area dropdown"
+  >
+    <svg
+      className="w-4 h-4"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 10 6"
+    >
+      <path
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        d="m1 1 4 4 4-4"
+      />
+    </svg>
+  </button>
+</div>
+
     </li>
     <li>
       <a
-        href="#"
+        href="/plans"
         className="block py-2 px-3 text-white hover:text-purple-300"
         onClick={handleSubmenuItemClick}
       >
@@ -135,7 +159,7 @@ export default function Navbar() {
     </li>
     <li>
       <a
-        href="#"
+        href="/gallery"
         className="block py-2 px-3 text-white hover:text-purple-300"
         onClick={handleSubmenuItemClick}
       >
@@ -158,13 +182,13 @@ export default function Navbar() {
         {/* "Book Now" and "Call Now" Buttons - Hidden on Mobile */}
         <div className="hidden md:flex space-x-4 rtl:space-x-reverse md:order-2">
           <a
-            href="#"
+            href="https://book.squareup.com/appointments/g74ppxgb2rbmal/location/LH1DBHXC19NYZ/services"
             className="outline-btn flex justify-center items-center gap-4 group"
           >
             Book Now
           </a>
           <a
-            href="tel:+123456789"
+            href="tel:+19803070431"
             className="outline-btn flex justify-center items-center gap-4 group"
           >
             Call Now
@@ -181,20 +205,20 @@ export default function Navbar() {
     <div className="grid max-w-screen-xl px-4 py-5 mx-auto  text-white">
       <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {[
-          { title: "Auto Detailing", desc: "Drive with Confidence, Detailing Excellence Defined" },
-          { title: "Boating Detailing", desc: "Sail In Style, Navigating Waters of Cleanliness" },
-          { title: "Engine Bay Detailing", desc: "Detailing Excellence and Charm, Under the Hood" },
-          { title: "Exterior Detailing", desc: "Exterior Brilliance, Journey with Pride" },
-          { title: "Interior Detailing", desc: "Comfort Redefined, Car Interior Detailing Excellence" },
-          { title: "Luxury Detailing", desc: "Luxury Redefined, Detailing at Its Finest" },
-          { title: "RV Detailing", desc: "Roam with Radiance, RV Detailing Perfection" },
-          { title: "Polishing", desc: "Polish to Perfection, Shine Never Seen Before" },
-          { title: "Upholstery Cleaning", desc: "Comfort Restored With Upholstery Cleaning Mastery" },
-          { title: "Ceramic Coating", desc: "Protect with Precision, Ceramic Coating Perfection" },
+          { title: "Auto Detailing", desc: "Drive with Confidence, Detailing Excellence Defined",href:"/services/auto-detailing" },
+          { title: "Boating Detailing", desc: "Sail In Style, Navigating Waters of Cleanliness",href:"/services/boating-detailing" },
+          { title: "Engine Bay Detailing", desc: "Detailing Excellence and Charm, Under the Hood",href:"/services/engine-bay-detailing" },
+          { title: "Exterior Detailing", desc: "Exterior Brilliance, Journey with Pride",href:"/services/exterior-detailing" },
+          { title: "Interior Detailing", desc: "Comfort Redefined, Car Interior Detailing Excellence",href:"/services/interior-detailing" },
+          { title: "Luxury Detailing", desc: "Luxury Redefined, Detailing at Its Finest",href:"/services/luxury-detailing" },
+          { title: "RV Detailing", desc: "Roam with Radiance, RV Detailing Perfection",href:"/services/rv-detailing-2" },
+          { title: "Polishing", desc: "Polish to Perfection, Shine Never Seen Before",href:"/services/polishing" },
+          { title: "Upholstery Cleaning", desc: "Comfort Restored With Upholstery Cleaning Mastery",href:"/services/upholstery-cleaning" },
+          { title: "Ceramic Coating", desc: "Protect with Precision, Ceramic Coating Perfection",href:"/services/ceramic-coating" },
         ].map((service, index) => (
           <li key={index}>
             <a
-              href="#"
+              href={service.href}
               className="block p-3 rounded-lg   hover:bg-purple-500/10"
               onClick={handleSubmenuItemClick}
             >
@@ -222,7 +246,7 @@ export default function Navbar() {
             <ul>
               <li>
                 <a
-                  href="#"
+                  href="/service-areas/charlotte-nc"
                   className="block p-3 rounded-lg  hover:bg-purple-500/10"
                   onClick={handleareaSubmenuItemClick }
                 >
@@ -234,7 +258,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/service-areas/huntersville-nc"
                   className="block p-3 rounded-lg  hover:bg-purple-500/10"
                   onClick={handleareaSubmenuItemClick }
                 >
@@ -246,7 +270,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/service-areas/mooresville-nc"
                   className="block p-3 rounded-lg  hover:bg-purple-500/10"
                   onClick={handleareaSubmenuItemClick }
                 >
@@ -260,7 +284,7 @@ export default function Navbar() {
             <ul>
               <li>
                 <a
-                  href="#"
+                  href="/service-areas/cornelius-nc"
                   className="block p-3 rounded-lg  hover:bg-purple-500/10"
                 >
                   <div className="font-semibold">Cornelius, NC</div>
@@ -271,7 +295,7 @@ export default function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/service-areas/concord-nc"
                   className="block p-3 rounded-lg  hover:bg-purple-500/10"
                   onClick={handleareaSubmenuItemClick }
                 >

@@ -81,10 +81,10 @@ export default function Gallery() {
                 height={300} 
                 objectFit="cover" 
               />
-              <div className={styles.des}>
+              {/* <div className={styles.des}>
                 <div>Image Name</div>
                 <button>More</button>
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

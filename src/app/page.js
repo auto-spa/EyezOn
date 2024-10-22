@@ -17,7 +17,7 @@ import Testimonial from "./components/Testimonial/testimonial";
 export default function Home() {
   return (
    <>
-<Navbar/>
+{/* <Navbar/> */}
 <Hero/>
 <About/>
 <FlipCardComponent/>
@@ -27,7 +27,7 @@ export default function Home() {
 <Testimonial/>
 <Gallery/>
 
-<Footer/>
+{/* <Footer/> */}
    </>
   );
 }
