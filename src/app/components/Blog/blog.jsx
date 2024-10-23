@@ -46,6 +46,17 @@ const blogPosts = [
     readTime: "",
     link: "/unveiling-the-difference-between-buffing-and-polishing-which-technique-is-right-for-your-car",
   }
+  ,
+  {
+    title:
+      "Easy Ways to Remove Swirl Marks from Your Car",
+    image: "/images/blog-5.jpg",
+    description:
+      "Swirl marks on your car can be an actual problem, diminishing its usual appearance. These light scratches and abrasions often",
+    category: "August 12, 2024 ",
+    readTime: "",
+    link: "/easy-ways-to-remove-swirl-marks-from-your-car",
+  }
   
   // Add more blog posts as needed
 ];
