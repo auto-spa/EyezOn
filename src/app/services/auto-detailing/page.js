@@ -61,7 +61,7 @@ const ServiceDetailPage = () => {
         <div className="absolute inset-0 bg-[url('/images/services-bg.jpg')] bg-center bg-no-repeat bg-cover opacity-[0.26] transition-all duration-300"></div>
         <div className="relative z-10 p-10 w-full text-center">
           <h1 className="text-white mt-32 text-5xl font-bold">
-          Auto Detailing Services Charlotte,NC
+            Auto Detailing Services Charlotte,NC
           </h1>
 
           <div className="flex justify-center text-white mt-1 text-md font_barlow font-semibold text-opacity-85 font_barlow">
@@ -90,9 +90,11 @@ const ServiceDetailPage = () => {
                   <div className="mt-4 text-lg text-gray-300">
                     {section.description}
                   </div>
-                  <div className="mt-6">
+                  <div className="mt-6 sm:mb-10 md:mb-0">
+                    {" "}
+                    {/* Adjusted bottom margin for small screens */}
                     <a
-                      href="/login"
+                      href="tel:+19803070431"
                       className="inline-flex rounded-lg bg-purple-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-purple-600 hover:bg-purple-900 hover:ring-purple-900"
                     >
                       Call Now
@@ -101,7 +103,7 @@ const ServiceDetailPage = () => {
                 </div>
 
                 {/* Image Section */}
-                <div className="flex-1 flex justify-center items-center">
+                <div className="flex-1 flex justify-center items-center ">
                   <Image
                     src={section.imgSrc}
                     alt={section.title}

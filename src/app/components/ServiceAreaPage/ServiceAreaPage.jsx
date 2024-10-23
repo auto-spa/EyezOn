@@ -14,35 +14,35 @@ const serviceAreas = [
     title: "Charlotte, NC",
     description:
       "Searching for a way to restore your vehicle’s sparkle in Charlotte, NC? Find excellent detail shops near Charlotte that specialize in comprehensive car care and thorough cleaning services. Our team of expert detailers is dedicated to rejuvenating your car’s flawless state, both internally and externally.",
-    link: "/junk-removal-florida-usa",
+    link: "/service-areas/charlotte-nc",
     image: "/images/Charlotte-NC.webp",
   },
   {
     title: "Huntersville, NC",
     description:
       "Try our superior marine detailing services in Huntersville, NC for the ultimate marine luxury experience. Our group of experienced experts focuses on thorough boat cleaning and detailing, guaranteeing that your boat stays in top condition throughout the entire year. ",
-    link: "/",
+    link: "/service-areas/huntersville-nc",
     image: "/images/Huntersville-NC.jpg",
   },
   {
     title: "Mooresville, NC",
     description:
       "Give your vehicle engine a new look with our thorough car engine detailing services in Mooresville, NC. Our skilled technicians are dedicated to cleaning engine bays and engines carefully to give your vehicle’s powerhouse the care it needs. By using refined methods",
-    link: "/auburndale",
+    link: "/service-areas/mooresville-nc",
     image: "/images/Mooresville-NC.jpg",
   },
   {
     title: "Cornelius, NC",
     description:
       "Engage your car in a refreshing exterior car wash experience in Cornelius, NC. Our super attention to detail ensures your car appears spotless, shining, and ready to turn heads on the road.",
-    link: "/auburndale",
+    link: "/service-areas/cornelius-nc",
     image: "/images/Cornelius-NC.jpg",
   },
   {
     title: "Concord, NC",
     description:
       "Bring back the beauty and comfort of your ride with our car interior cleaning services in Concord. Our professional crew focuses on cleaning the indoors of your ride, ensuring each inch of your vehicle’s interior is perfectly neat and clean.",
-    link: "/auburndale",
+    link: "/service-areas/concord-nc",
     image: "/images/Concord-NC.jpg",
   },
   // Add more service areas as needed
