@@ -13,7 +13,7 @@ const blogPosts = [
       "Looking for the best pressure washers for cars? Here you can find the relevant information about why pressure washing has",
     category: "September 17, 2024 ",
     readTime: "",
-    link: "/safe-and-sensible-cleaning-solutions-for-hoarder-house",
+    link: "/the-best-pressure-washers-for-car-detailing-and-cleaning",
   },
   {
     title:
@@ -23,7 +23,7 @@ const blogPosts = [
       "The paint of your car needs more than just a simple water and soap cleaning. It deserves safety, shine, and..",
     category: "September 15, 2024",
     readTime: "",
-    link: "/how-office-junk-removal-helps-improve-employee-morale-and-focus",
+    link: "/the-complete-guide-to-car-wax-how-to-choose-and-use",
   },
  
   {
@@ -34,13 +34,13 @@ const blogPosts = [
       "Hey there, fellow car enthusiasts! Whether you’re passionate about your vehicle or just want your daily driver to shine, understanding..",
     category: "September 10, 2024",
     readTime: "",
-    link: "/when-should-you-dispose-of-old-furniture",
+    link: "/how-long-does-car-detailing-take-a-comprehensive-guide",
   }
   
   // Add more blog posts as needed
 ];
 
-const Blog = () => {
+const Blog1 = () => {
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -149,4 +149,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Blog1;

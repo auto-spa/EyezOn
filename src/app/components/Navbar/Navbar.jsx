@@ -29,6 +29,18 @@ export default function Navbar() {
       alt="Logo"
       className="h-[6rem] object-contain mt-4" // Ensure the logo stays within its height boundary
     />
+    {/* <video
+  src="/images/bg.mp4"
+  className="h-[6rem] object-contain mt-4 bg-transparent"
+  autoPlay
+  loop
+  muted
+  playsInline // Ensures it plays inline on mobile browsers
+  controls
+>
+  Your browser does not support the video tag.
+</video> */}
+
   </a>
 
         {/* Mobile Menu Button */}
