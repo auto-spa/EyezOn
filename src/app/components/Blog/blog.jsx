@@ -35,6 +35,16 @@ const blogPosts = [
     category: "September 10, 2024",
     readTime: "",
     link: "/how-long-does-car-detailing-take-a-comprehensive-guide",
+  },
+  {
+    title:
+      "What’s the difference between Polishing and buffing process; Which Technique is Right for Your Car?",
+    image: "/images/blog-4.png",
+    description:
+      "If you ever search for the improvement of paint for your vehicle, you must hear about the terms vehicle polishing",
+    category: "September 10, 2024",
+    readTime: "",
+    link: "/unveiling-the-difference-between-buffing-and-polishing-which-technique-is-right-for-your-car",
   }
   
   // Add more blog posts as needed
