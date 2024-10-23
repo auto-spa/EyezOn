@@ -57,6 +57,17 @@ const blogPosts = [
     readTime: "",
     link: "/easy-ways-to-remove-swirl-marks-from-your-car",
   }
+  ,
+  {
+    title:
+      "Is a Touchless Car Wash Safe for All Vehicle Types?",
+    image: "/images/blog-6 .jpg",
+    description:
+      "In today’s fast-paced world, consolation and performance are key. One provider that has gained popularity is the touchless car wash.",
+    category: "August 6, 2024  ",
+    readTime: "",
+    link: "/is-a-touchless-car-wash-safe-for-all-vehicle-types",
+  }
   
   // Add more blog posts as needed
 ];
