@@ -67,8 +67,50 @@ const blogPosts = [
     category: "August 6, 2024  ",
     readTime: "",
     link: "/is-a-touchless-car-wash-safe-for-all-vehicle-types",
+  },
+  {
+    title:
+      "Best Methods for Car Detailing Smoke Odor Removal",
+    image: "/images/blog-7.jpg",
+    description:
+      "Keeping your car neat and smelling good can be tricky, especially when dealing with smoke. This stubborn smell is known",
+    category: "July 15, 2024  ",
+    readTime: "",
+    link: "/car-detailing-smoke-odor-removal",
   }
-  
+  ,
+  {
+    title:
+      "Quick and Easy Steps for Successful RV Oxidation Removal",
+    image: "/images/blog-8.jpg",
+    description:
+      "Owning a luxury vehicle (RV) is an entry of immense effort, yet after some time, the acceptance of parts can.........",
+    category: "July 12, 2024 ",
+    readTime: "",
+    link: "/quick-and-easy-steps-for-successful-rv-oxidation-removal",
+  }
+  ,
+  {
+    title:
+      "How Do You Decide How Much to Tip for Car Detailing?",
+    image: "/images/blog-9.jpg",
+    description:
+      "When it comes to car detailing, deciding on the appropriate tip can be challenging. Various factors influence how much to",
+    category: "July 5, 2024",
+    readTime: "",
+    link: "/how-much-to-tip-for-car-detailing",
+  }
+  ,
+  {
+    title:
+      "Can You Achieve a Showroom Shine with a Car Wash Detail at Home?",
+    image: "/images/blog-10.jpg",
+    description:
+      "“Yes,” You can achieve the showroom shine of your car with car wash details at home. Achieving a showroom shine",
+    category: "May 13, 2024",
+    readTime: "",
+    link: "/can-you-achieve-a-showroom-shine-with-a-car-wash-detail-at-home",
+  },
   // Add more blog posts as needed
 ];
 
