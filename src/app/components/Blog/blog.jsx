@@ -111,6 +111,16 @@ const blogPosts = [
     readTime: "",
     link: "/can-you-achieve-a-showroom-shine-with-a-car-wash-detail-at-home",
   },
+  {
+    title:
+      "Is There a Safe Way to Use Car Polish Without Damaging Your Car?",
+    image: "/images/blog-11.jpg",
+    description:
+      "“Yes,” there is a safe way to polish your car without any damage. Car polish is a popular product used............",
+    category: "May 9, 2024 ",
+    readTime: "",
+    link: "/is-there-a-safe-way-to-use-car-polish-without-damaging-your-car",
+  },
   // Add more blog posts as needed
 ];
 
