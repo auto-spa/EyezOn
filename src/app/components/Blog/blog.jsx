@@ -201,6 +201,16 @@ const blogPosts = [
     readTime: "",
     link: "/is-3d-ceramic-coating-suitable-for-all-types-of-surfaces",
   },
+  {
+    title:
+      "How Much Does Paint Correction Cost in Charlotte, NC?",
+    image: "/images/blog-20.jpg",
+    description:
+      "The exterior of your car, exposed to the outside and regular use, may slowly lose its shine as a result................",
+    category: "January 19, 2024 ",
+    readTime: "",
+    link: "/how-much-does-paint-correction-cost-in-charlotte-nc",
+  },
   // Add more blog posts as needed
 ];
 
