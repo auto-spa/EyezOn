@@ -211,7 +211,59 @@ const blogPosts = [
     readTime: "",
     link: "/how-much-does-paint-correction-cost-in-charlotte-nc",
   },
+  {
+    title:
+      "How To Fix Dents and Micro Scratches On Car?",
+    image: "/images/blog-21.jpg",
+    description:
+      "Regular usage of your car subjects it to the natural attacks of everyday utilization, coming about in a buildup of",
+    category: "January 19, 2024 ",
+    readTime: "",
+    link: "/how-to-fix-dents-and-micro-scratches-on-car",
+  },
+  {
+    title:
+      "What is Paint Correction on a Car?",
+    image: "/images/blog-22.jpg",
+    description:
+      "Enter the transformative processes of paint correction and ceramic coating, two techniques that go beyond conventional",
+    category: "December 11, 2023 ",
+    readTime: "",
+    link: "/what-is-paint-correction-on-a-car",
+  },
+  {
+    title:
+      "How to Fix Scratches on Interior Car Plastic in NC",
+    image: "/images/blog-22.jpg",
+    description:
+      "Car scratches can be a source of frustration for car owners, no matter how minor. The interior plastic of",
+    category: "December 5, 2023 ",
+    readTime: "",
+    link: "/how-to-fix-scratches-on-interior-car-plastic-in-nc",
+  },
+  {
+    title:
+      " Unveiling the Artistry behind Our Unmatched Hand Wash Technique for Your Car",
+    image: "/images/25.jpg",
+    description:
+      "In the realm of automotive care, where every detail ",
+    category: "November 19, 2023 ",
+    readTime: "",
+    link: "/how-to-fix-scratches-on-interior-car-plastic-in-nc",
+  },
+  {
+    title:
+      " The Unmatched Charm of Living in Charlotte: A Dive into Metro Marvels",
+    image: "/images/blog-26.jpg",
+    description:
+      "Welcome to the enchanting realm of the Charlotte Metro Area, where urban",
+    category: "November 17, 2023 ",
+    readTime: "",
+    link: "/the-unmatched-charm-of-living-in-charlotte-a-dive-into-metro-marvels",
+  },
+
   // Add more blog posts as needed
+
 ];
 
 const Blog1 = () => {
