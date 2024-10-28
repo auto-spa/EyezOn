@@ -121,6 +121,86 @@ const blogPosts = [
     readTime: "",
     link: "/is-there-a-safe-way-to-use-car-polish-without-damaging-your-car",
   },
+  {
+    title:
+      "How Often Should I Detail My Boat to Keep It Looking Great?",
+    image: "/images/blog-12.jpg",
+    description:
+      "Proper maintenance and detailing are essential to keep your boat looking its best and preserve its value over time. Regular",
+    category: "May 3, 2024 ",
+    readTime: "",
+    link: "/how-often-should-i-detail-my-boat-to-keep-it-looking-great",
+  },
+  {
+    title:
+      "Why is boat detailing Important for Achieving a Showroom Shine?",
+    image: "/images/blog-13.jpg",
+    description:
+      "Acquiring a boat entails a substantial financial commitment, and preserving its visual beauty is crucial for any owner who takes",
+    category: "April 21, 2024  ",
+    readTime: "",
+    link: "/why-is-boat-detailing-important-for-achieving-a-showroom-shine",
+  },
+  {
+    title:
+      "How Do I Prevent Mobile RV Detailing Problems in the Future?",
+    image: "/images/blog-14.jpg",
+    description:
+      "Mobile RV detailing is a convenient service that brings the detailing directly to your location, helping keep your recreational vehicle",
+    category: "April 14, 2024  ",
+    readTime: "",
+    link: "/how-do-i-prevent-mobile-rv-detailing-problems-in-the-future",
+  },
+  {
+    title:
+      "How Often Should You Use a Car Cleaning Kit to Maintain Your Vehicle?",
+    image: "/images/blog-15.jpg",
+    description:
+      "Maintaining the cleanliness of your car serves a purpose beyond creating a positive impression. Regular maintenance is essential for preserving",
+    category: "April 7, 2024   ",
+    readTime: "",
+    link: "/how-often-should-you-use-a-car-cleaning-kit-to-maintain-your-vehicle",
+  },
+  {
+    title:
+      "How to Apply Car Ceramic Coating for Ultimate Protection?",
+    image: "/images/blog-16.jpg",
+    description:
+      "Car ceramic coating has transformed car protection by providing exceptional durability, gloss, and resistance to",
+    category: "February 20, 2024    ",
+    readTime: "",
+    link: "/how-to-apply-car-ceramic-coating-for-ultimate-protection",
+  },
+  {
+    title:
+      "How to Polish Your Car with Fiber for a Flawless Shine?",
+    image: "/images/blog-17.jpg",
+    description:
+      "Do you feel fatigued by the uninteresting and uninspiring appearance of your car’s paint? Do you aspire to get a",
+    category: "February 12, 2024",
+    readTime: "",
+    link: "/how-to-polish-your-car-with-fiber-for-a-flawless-shine",
+  },
+  {
+    title:
+      "How Much Does a Ceramic Coating Cost in Charlotte?",
+    image: "/images/blog-18.jpg",
+    description:
+      "Vehicle lovers habitually contemplate the value of clay coatings. If you have at any point contemplated the cost of clay",
+    category: "February 5, 2024",
+    readTime: "",
+    link: "/ceramic-coating-cost-in-charlotte",
+  },
+  {
+    title:
+      "Is 3D Ceramic Coating Suitable for All Types of Surfaces?",
+    image: "/images/blog-19.jpg",
+    description:
+      "The advancement of 3D ceramic coating has presented a new arrangement that gives improved durability, sparkle, and protection against a",
+    category: "January 19, 2024",
+    readTime: "",
+    link: "/is-3d-ceramic-coating-suitable-for-all-types-of-surfaces",
+  },
   // Add more blog posts as needed
 ];
 
