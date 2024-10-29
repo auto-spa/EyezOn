@@ -261,8 +261,58 @@ const blogPosts = [
     readTime: "",
     link: "/the-unmatched-charm-of-living-in-charlotte-a-dive-into-metro-marvels",
   },
+  {
+    title:
+      " Comprehensive Guide to Engine Cleaning for Peak Performance",
+    image: "/images/blog-27.jpg",
+    description:
+      "In the quest for peak vehicle performance, a pristine engine is non-negotiable. At Eyez on the Prize Auto",
+    category: "November 15, 2023 ",
+    readTime: "",
+    link: "/comprehensive-guide-to-engine-cleaning-for-peak-performance",
+  },
+  {
+    title:
+      " How Much Is Paint Correction and Ceramic Coating",
+    image: "/images/blog-28.png",
+    description:
+      "So, you’re thinking about giving your beloved car a little extra TLC with paint correction and ceramic ",
+    category: "October 6, 2023 ",
+    readTime: "",
+    link: "/how-much-is-paint-correction-and-ceramic-coating",
+  },
+  {
+    title:
+      " The Power of Exterior Detailing: Can it Remove Scratches and Dents on Cars?",
+    image: "/images/blog-29.png",
+    description:
+      "When it comes to keeping your car looking its best, exterior detailing becomes a key",
+    category: "September 19, 2023  ",
+    readTime: "",
+    link: "/exterior-detailing-can-it-remove-scratches-and-dents-on-cars",
+  },
+  {
+    title:
+      " The Magic of Ceramic Coating: Unveiling the Longevity",
+    image: "/images/blog-30.png",
+    description:
+      "Ceramic Coating has taken the automotive world by storm in recent years, promising unrivaled protection ",
+    category: "September 14, 2023",
+    readTime: "",
+    link: "/the-magic-of-ceramic-coating-unveiling-the-longevity",
+  },
+  {
+    title:
+      " How Car Detailing Service Can Preserve Your Car’s Value",
+    image: "/images/blog-31.jpg",
+    description:
+      "Everything You Should Know About Car Detailing Car detailing is a thorough and meticulous cleaning  ",
+    category: "August 8, 2023 ",
+    readTime: "",
+    link: "/how-car-detailing-service-can-preserve-your-cars-value",
+  },
 
-  // Add more blog posts as needed
+  // Add more blog posts as needed How Car Detailing Service Can Preserve Your Car’s Value
 
 ];
 
