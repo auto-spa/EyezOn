@@ -6,11 +6,7 @@ const MetadataContext = createContext();
 
 export const MetadataProvider = ({ children }) => {
   const metadata = {
-    "/": {
-      title: "Detailing Services for a Pristine Vehicle in Charlotte",
-      description:
-        "Experience top detailing services in Charlotte at Eyez on the Prize auto spa. Our experts deliver a showroom shine for your vehicle. Book today for a stunning finish!",
-    },
+    
     "/services": {
       title:
         "Comprehensive Detailing Services for All Vehicles in Charlotte",
