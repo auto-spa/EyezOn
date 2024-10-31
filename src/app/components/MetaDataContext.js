@@ -16,74 +16,74 @@ export const MetadataProvider = ({ children }) => {
         "Comprehensive Detailing Services for All Vehicles in Charlotte",
       description: "Eyez on the Prize auto spa offers a full range of auto detailing services in Charlotte. Choose from interior, exterior, polishing, and more. Contact us for top-notch results!",
     },
-    "/auto-detailing": {
+    "/services/auto-detailing": {
       title: "Auto Detailing Services for a Showroom Shine in Charlotte",
       description: "Experience Charlotte’s finest auto detailing at Eyez on the Prize auto spa. Our skilled team makes every vehicle look brand new. Schedule your detailing service today!",
     },
-    "/boating-detailing": {
+    "/services/boating-detailing": {
       title: "Boat Detailing Services for a Spotless Finish in Charlotte",
       description: "Preserve your boat’s beauty with detailing services from Eyez on the Prize auto spa. Charlotte’s experts in marine detailing, we make your boat shine. Book with us today!",
     },
-    "/engine-bay-detailing": {
+    "/services/engine-bay-detailing": {
       title: "Engine Bay Detailing for a Cleaner Vehicle in Charlotte",
       description: "Keep your engine bay spotless with Eyez on the Prize auto spa. Our Charlotte-based service helps maintain your car’s performance and aesthetics. Book engine detailing now!",
     },
-    "/exterior-detailing": {
+    "/services/exterior-detailing": {
       title: "Exterior Detailing Services for a Stunning Look in Charlotte",
       description:"Transform your vehicle’s exterior with expert detailing from Eyez on the Prize auto spa. Located in Charlotte, we bring out your car’s full potential. Schedule today!"
     },
-    "/interior-detailing": {
+    "/services/interior-detailing": {
       title: "Interior Detailing Services for a Fresh Interior in Charlotte",
       description:
         "Refresh your car’s interior with Eyez on the Prize auto spa. Our Charlotte specialists offer deep cleaning, leaving interiors pristine. Schedule your detailing appointment today!.",
     },
-    "/luxury-detailing": {
+    "/services/luxury-detailing": {
       title: "Luxury Detailing Services for High-End Cars in Charlotte",
       description: "Treat your luxury vehicle to premier detailing in Charlotte. Eyez on the Prize auto spa brings exclusive care for the finest results. Reserve your luxury detailing now!",
     },
-    "/rv-detailing-2": {
+    "/services/rv-detailing-2": {
       title: "RV Detailing Services for a Like-New Look in Charlotte",
       description: "Make your RV road-ready with Eyez on the Prize auto spa detailing service in Charlotte. From exterior polishing to interior cleaning, enjoy a like-new finish. Call us today!",
     },
-    "/polishing": {
+    "/services/polishing": {
       title: "Car Polishing Services for a Gleaming Finish in Charlotte",
       description:
         "Restore shine to your car with our professional polishing services. Eyez on the Prize auto spa in Charlotte offers unbeatable quality. Book your polishing appointment today!",
     },
-    "/upholstery-cleaning": {
+    "/services/upholstery-cleaning": {
       title:
         "Upholstery Cleaning Services for Stain-Free Interiors in Charlotte",
       description:
         "Give your car’s upholstery a fresh look with our cleaning service. Eyez on the Prize auto spa in Charlotte ensures stain-free, clean seats. Contact us for an appointment!",
     },
-    "/ceramic-coating": {
+    "/services/ceramic-coating": {
       title: "Ceramic Coating Services for Ultimate Protection in Charlotte",
       description:
         "Protect your car’s finish with Eyez on the Prize auto spa ceramic coating in Charlotte. Durable, high-quality protection that lasts. Contact us for lasting car care!",
     },
-    "/charlotte-nc": {
+    "/service-areas/charlotte-nc": {
       title:
         "Professional Detailing Services for Vehicles in Charlotte",
       description:
         "Eyez on the Prize auto spa is Charlotte’s go-to for professional auto detailing. Serving Charlotte and nearby areas, we offer a variety of detailing services. Call today!",
     },
-    "/huntersville-nc": {
+    "/service-areas/huntersville-nc": {
       title:
         "Huntersville Auto Detailing Services for a Flawless Look",
       description:
         "Eyez on the Prize auto spa offers premium auto detailing in Huntersville, NC. From interiors to exteriors, trust us to make your car shine. Schedule with us today!",
     },
-    "/mooresville-nc": {
+    "/service-areas/mooresville-nc": {
       title: "Auto Detailing for Pristine Cars in Mooresville",
       description:
         "Eyez on the Prize auto spa provides Mooresville with top-notch detailing services. Interior, exterior, and more our team makes every car look exceptional. Contact us today!",
     },
-    "/cornelius-nc": {
+    "/service-areas/cornelius-nc": {
       title: "Detailing Services for Every Vehicle in Cornelius",
       description:
         "Get your car detailed in Cornelius, NC, with Eyez on the Prize auto spa. Specializing in all detailing services, we make every car look flawless. Book an appointment today!",
     },
-    "/concord-nc": {
+    "/service-areas/concord-nc": {
       title: "Concord Detailing Services for a Clean Finish",
       description:
         "Eyez on the Prize auto spa brings professional auto detailing to Concord, NC. With a full range of services, we make cars shine inside and out. Schedule today!",
@@ -249,7 +249,7 @@ export const MetadataProvider = ({ children }) => {
       description:
         "If you want your car to look its best and retain its value, consider entrusting it to Eyez on the Prize Auto-Spa for an exceptional car detailing experience.",
     },
-    "/contact": {
+    "/contact-us": {
       title: "Contact Us for Exceptional Auto Detailing in Charlotte",
       description:
         "Get in touch with Eyez on the Prize for premier auto detailing in Charlotte. Our team is ready to assist with any questions or bookings. Contact us today!",
@@ -259,18 +259,18 @@ export const MetadataProvider = ({ children }) => {
       description:
         "View our gallery showcasing Eyez on the Prize detailing transformations. See the exceptional results from our Charlotte team. Get inspired for your own vehicle!",
     },
-    "/Plans": {
+    "/plans": {
       title:
         "Custom Detailing Plans for Every Vehicle in Charlotte",
       description:
         "Choose from our detailing plans to suit every vehicle’s needs in Charlotte. Eyez on the Prize auto spa provides quality, affordability, and lasting results. See our options today!",
     },
-    "/Services Areas": {
+    "/service-areas": {
       title: "Detailing Services for Various Locations Near Charlotte",
       description:
         "Explore Eyez on the Prize auto spa detailing service areas near Charlotte, NC. From auto to boat detailing, we provide expert service nearby. Reach out for local detailing!",
     },
-    "/Services": {
+    "/services": {
       title: "Comprehensive Detailing Services for All Vehicles in Charlotte",
       description:
         "Eyez on the Prize auto spa offers a full range of auto detailing services in Charlotte. Choose from interior, exterior, polishing, and more. Contact us for top-notch results!",
