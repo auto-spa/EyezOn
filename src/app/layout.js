@@ -26,8 +26,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>Detailing Services for a Pristine Vehicle in Charlotte</title>
-        <meta name="description" content="Experience top detailing services in Charlotte at Eyez on the Prize auto spa. Our experts deliver a showroom shine for your vehicle. Book today for a stunning finish!" />
+        <title></title>
+        <meta name="description" content="" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
